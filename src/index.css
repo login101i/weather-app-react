@@ -1,13 +1,99 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 }
+body{
+  font-family: 'montserrat', sans-serif;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.app{
+  background: url(./assets/89404-OKS7TF-472.jpg) ;
+  background-size: cover;
+  background-position: bottom;
+  transition: 1.4s ease-out;
+}
+.app.warm{
+  background:url(./assets/—Pngtree—illustration\ summer\ beach\ vacation_4107885.jpg);
+   background-size: cover;
+  background-position: bottom;
+  transition: 0.9s ease-out;
+}
+main{
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(5, 5, 5, 0.2), rgba(0, 0, 0, 0.74));
+  padding:25px;
+}
+.search-box{
+  width:100%;
+  margin:0 0 75px;
+
+}
+.search-box 
+.search-bar{
+display:block;
+width:100%;
+padding:15px;
+appearance:none;
+background:none;
+border:none;
+outline:none;
+background-color:rgba(255, 255,255, 0.4);
+transition: 0.3s ease-in-out;
+border-radius: 0px 0px 15px 15px;
+margin-top: -25px;
+box-shadow: 0px 5px rgba(0,0,0, 0.2);
+color:#313131;
+font-size: 22px;
+
+}
+.search-bar:hover{
+  background-color:rgba(255, 255,255, 0.7)
+
+}
+/* .search-box .search-bar:focus{
+background-color: (255,255,255,0.9);
+} */
+.location{
+  color:#fff;
+  font-size: 34px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5)
+}
+.location-box .date{
+  color:#fff;
+  text-align: center;
+  font-size: 22px;
+  font-style: italic;
+  text-shadow: 2px 2px rgba(50,50, 50, 0.5);
+  padding-top: 10px;
+  font-weight: 300px;
+
+}
+.weather-box{
+  text-align: center;
+  width:70vw;
+  margin:30px auto;
+  
+}
+.weather-box .temp{
+  text-align: center;
+  color:#fff;
+  font-size: 80px;
+  font-weight: 900;
+  font-style: italic;
+  padding-top: 50px;
+    text-shadow: 3px 6px rgba(50,50, 50, 0.5);
+    background-color: rgba(255, 255, 255, 0.308);
+    border-radius: 20px;
+    padding:20px 30px;
+}
+.weather-box .weather{
+  color:#fff;
+  font-weight: 600;
+  text-shadow: 3px 3px rgba(50,50,50, 0.5);
+  font-size: 40px;
+  padding-top: 50px;
+  text-transform: capitalize;
 }
