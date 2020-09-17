@@ -12,14 +12,17 @@ body{
   background-size: cover;
   background-position: bottom;
   transition: 1.4s ease-out;
-  max-width:600px
+  max-width:600px;
+  margin:40px auto;
 }
 .app.warm{
   background:url(./assets/—Pngtree—illustration\ summer\ beach\ vacation_4107885.jpg);
    background-size: cover;
   background-position: bottom;
   transition: 0.9s ease-out;
-    max-width:600px
+    max-width:600px;
+        margin:40px auto;
+
 }
 main{
   min-height: 100vh;
