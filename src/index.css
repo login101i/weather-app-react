@@ -12,6 +12,7 @@ body{
   background-size: cover;
   background-position: bottom;
   transition: 1.4s ease-out;
+  max-width:600px
 }
 .app.warm{
   background:url(./assets/—Pngtree—illustration\ summer\ beach\ vacation_4107885.jpg);
